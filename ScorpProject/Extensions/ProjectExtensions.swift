@@ -3,6 +3,7 @@
 //  ScorpProject
 //
 //  Created by Çağatay Eğilmez on 21.01.2023.
+//  Copyright © 2023 Çağatay Eğilmez. All rights reserved.
 //
 
 import Foundation
