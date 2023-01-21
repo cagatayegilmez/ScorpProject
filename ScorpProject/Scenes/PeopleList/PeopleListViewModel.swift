@@ -25,7 +25,9 @@ extension PeopleListViewModel {
         let nextStr = self.next == 0 ? nil : "\(self.next)"
         DataSource.fetch(next: nextStr) { [weak self] response, error in
             guard let self = self else { return }
-            if let response = response {
+            if let error = error, !error.errorDescription.isEmpty {
+                self.output?.showError(with: error.errorDescription)
+            } else if let response = response {
                 response.people.forEach { person in
                     self.people.append(person)
                 }

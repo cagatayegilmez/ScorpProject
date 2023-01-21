@@ -43,6 +43,15 @@ final class PeopleListViewController: UIViewController {
 }
 
 extension PeopleListViewController: PeopleListViewModelOutput {
+    func showError(with errorStr: String) {
+        let alert = UIAlertController(title: title, message: errorStr, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        let when = DispatchTime.now() + 0.2
+        DispatchQueue.main.asyncAfter(deadline: when) {
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
     func refreshUI() {
         DispatchQueue.main.async { [weak self] in
             guard let self = self else { return }

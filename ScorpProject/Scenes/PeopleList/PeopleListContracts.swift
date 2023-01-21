@@ -14,4 +14,5 @@ protocol PeopleListViewModelInput {
 
 protocol PeopleListViewModelOutput: AnyObject {
     func refreshUI()
+    func showError(with errorStr: String)
 }
