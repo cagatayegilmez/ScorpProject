@@ -8,14 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		5204D1D8297AE3DA00C84EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1D7297AE3DA00C84EAE /* AppDelegate.swift */; };
-		5204D1DA297AE3DA00C84EAE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1D9297AE3DA00C84EAE /* SceneDelegate.swift */; };
-		5204D1DC297AE3DA00C84EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1DB297AE3DA00C84EAE /* ViewController.swift */; };
-		5204D1DF297AE3DA00C84EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204D1DD297AE3DA00C84EAE /* Main.storyboard */; };
 		5204D1E1297AE3DB00C84EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5204D1E0297AE3DB00C84EAE /* Assets.xcassets */; };
-		5204D1E4297AE3DB00C84EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5204D1E2297AE3DB00C84EAE /* LaunchScreen.storyboard */; };
 		5204D1EF297AE3DB00C84EAE /* ScorpProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1EE297AE3DB00C84EAE /* ScorpProjectTests.swift */; };
 		5204D1F9297AE3DB00C84EAE /* ScorpProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1F8297AE3DB00C84EAE /* ScorpProjectUITests.swift */; };
 		5204D1FB297AE3DB00C84EAE /* ScorpProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5204D1FA297AE3DB00C84EAE /* ScorpProjectUITestsLaunchTests.swift */; };
+		52E04F82297BC12F00A1DBAF /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F81297BC12F00A1DBAF /* DataSource.swift */; };
+		52E04F83297BC12F00A1DBAF /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F81297BC12F00A1DBAF /* DataSource.swift */; };
+		52E04F84297BC12F00A1DBAF /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F81297BC12F00A1DBAF /* DataSource.swift */; };
+		52E04F86297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F85297BC17D00A1DBAF /* ProjectExtensions.swift */; };
+		52E04F87297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F85297BC17D00A1DBAF /* ProjectExtensions.swift */; };
+		52E04F88297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F85297BC17D00A1DBAF /* ProjectExtensions.swift */; };
+		52E04F8F297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8A297BC4FE00A1DBAF /* PeopleListContracts.swift */; };
+		52E04F90297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8A297BC4FE00A1DBAF /* PeopleListContracts.swift */; };
+		52E04F91297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8A297BC4FE00A1DBAF /* PeopleListContracts.swift */; };
+		52E04F92297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8B297BC4FE00A1DBAF /* PeopleListViewController.swift */; };
+		52E04F93297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8B297BC4FE00A1DBAF /* PeopleListViewController.swift */; };
+		52E04F94297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8B297BC4FE00A1DBAF /* PeopleListViewController.swift */; };
+		52E04F95297BC4FE00A1DBAF /* PeopleListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8C297BC4FE00A1DBAF /* PeopleListBuilder.swift */; };
+		52E04F96297BC4FE00A1DBAF /* PeopleListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8C297BC4FE00A1DBAF /* PeopleListBuilder.swift */; };
+		52E04F97297BC4FF00A1DBAF /* PeopleListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8C297BC4FE00A1DBAF /* PeopleListBuilder.swift */; };
+		52E04F98297BC4FF00A1DBAF /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8D297BC4FE00A1DBAF /* PeopleListView.swift */; };
+		52E04F99297BC4FF00A1DBAF /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8D297BC4FE00A1DBAF /* PeopleListView.swift */; };
+		52E04F9A297BC4FF00A1DBAF /* PeopleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8D297BC4FE00A1DBAF /* PeopleListView.swift */; };
+		52E04F9B297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8E297BC4FE00A1DBAF /* PeopleListViewModel.swift */; };
+		52E04F9C297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8E297BC4FE00A1DBAF /* PeopleListViewModel.swift */; };
+		52E04F9D297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04F8E297BC4FE00A1DBAF /* PeopleListViewModel.swift */; };
+		52E04FA3297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E04FA2297BC7C300A1DBAF /* LaunchScreen.storyboard */; };
+		52E04FA4297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E04FA2297BC7C300A1DBAF /* LaunchScreen.storyboard */; };
+		52E04FA5297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E04FA2297BC7C300A1DBAF /* LaunchScreen.storyboard */; };
+		52E04FA7297BCCE200A1DBAF /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04FA6297BCCE200A1DBAF /* PersonCell.swift */; };
+		52E04FA8297BCCE200A1DBAF /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04FA6297BCCE200A1DBAF /* PersonCell.swift */; };
+		52E04FA9297BCCE200A1DBAF /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E04FA6297BCCE200A1DBAF /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +61,22 @@
 /* Begin PBXFileReference section */
 		5204D1D4297AE3DA00C84EAE /* ScorpProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScorpProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204D1D7297AE3DA00C84EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5204D1D9297AE3DA00C84EAE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5204D1DB297AE3DA00C84EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5204D1DE297AE3DA00C84EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5204D1E0297AE3DB00C84EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5204D1E3297AE3DB00C84EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5204D1E5297AE3DB00C84EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5204D1EA297AE3DB00C84EAE /* ScorpProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScorpProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204D1EE297AE3DB00C84EAE /* ScorpProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorpProjectTests.swift; sourceTree = "<group>"; };
 		5204D1F4297AE3DB00C84EAE /* ScorpProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScorpProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5204D1F8297AE3DB00C84EAE /* ScorpProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorpProjectUITests.swift; sourceTree = "<group>"; };
 		5204D1FA297AE3DB00C84EAE /* ScorpProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScorpProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52E04F81297BC12F00A1DBAF /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		52E04F85297BC17D00A1DBAF /* ProjectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectExtensions.swift; sourceTree = "<group>"; };
+		52E04F8A297BC4FE00A1DBAF /* PeopleListContracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListContracts.swift; sourceTree = "<group>"; };
+		52E04F8B297BC4FE00A1DBAF /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
+		52E04F8C297BC4FE00A1DBAF /* PeopleListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListBuilder.swift; sourceTree = "<group>"; };
+		52E04F8D297BC4FE00A1DBAF /* PeopleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListView.swift; sourceTree = "<group>"; };
+		52E04F8E297BC4FE00A1DBAF /* PeopleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewModel.swift; sourceTree = "<group>"; };
+		52E04FA2297BC7C300A1DBAF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52E04FA6297BCCE200A1DBAF /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				5204D1D7297AE3DA00C84EAE /* AppDelegate.swift */,
-				5204D1D9297AE3DA00C84EAE /* SceneDelegate.swift */,
-				5204D1DB297AE3DA00C84EAE /* ViewController.swift */,
-				5204D1DD297AE3DA00C84EAE /* Main.storyboard */,
 				5204D1E0297AE3DB00C84EAE /* Assets.xcassets */,
-				5204D1E2297AE3DB00C84EAE /* LaunchScreen.storyboard */,
 				5204D1E5297AE3DB00C84EAE /* Info.plist */,
+				52E04F7E297BC0BD00A1DBAF /* Scenes */,
+				52E04F7F297BC0E000A1DBAF /* API */,
+				52E04F80297BC0F700A1DBAF /* Extensions */,
 			);
 			path = ScorpProject;
 			sourceTree = "<group>";
@@ -125,6 +152,44 @@
 				5204D1FA297AE3DB00C84EAE /* ScorpProjectUITestsLaunchTests.swift */,
 			);
 			path = ScorpProjectUITests;
+			sourceTree = "<group>";
+		};
+		52E04F7E297BC0BD00A1DBAF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				52E04F89297BC4E000A1DBAF /* PeopleList */,
+				52E04FA2297BC7C300A1DBAF /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		52E04F7F297BC0E000A1DBAF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				52E04F81297BC12F00A1DBAF /* DataSource.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		52E04F80297BC0F700A1DBAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52E04F85297BC17D00A1DBAF /* ProjectExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		52E04F89297BC4E000A1DBAF /* PeopleList */ = {
+			isa = PBXGroup;
+			children = (
+				52E04F8A297BC4FE00A1DBAF /* PeopleListContracts.swift */,
+				52E04F8B297BC4FE00A1DBAF /* PeopleListViewController.swift */,
+				52E04F8C297BC4FE00A1DBAF /* PeopleListBuilder.swift */,
+				52E04F8D297BC4FE00A1DBAF /* PeopleListView.swift */,
+				52E04F8E297BC4FE00A1DBAF /* PeopleListViewModel.swift */,
+				52E04FA6297BCCE200A1DBAF /* PersonCell.swift */,
+			);
+			path = PeopleList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +296,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5204D1E4297AE3DB00C84EAE /* LaunchScreen.storyboard in Resources */,
 				5204D1E1297AE3DB00C84EAE /* Assets.xcassets in Resources */,
-				5204D1DF297AE3DA00C84EAE /* Main.storyboard in Resources */,
+				52E04FA3297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +305,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E04FA4297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E04FA5297BC7C300A1DBAF /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5204D1DC297AE3DA00C84EAE /* ViewController.swift in Sources */,
+				52E04F82297BC12F00A1DBAF /* DataSource.swift in Sources */,
+				52E04F92297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */,
+				52E04F86297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */,
+				52E04FA7297BCCE200A1DBAF /* PersonCell.swift in Sources */,
+				52E04F98297BC4FF00A1DBAF /* PeopleListView.swift in Sources */,
 				5204D1D8297AE3DA00C84EAE /* AppDelegate.swift in Sources */,
-				5204D1DA297AE3DA00C84EAE /* SceneDelegate.swift in Sources */,
+				52E04F95297BC4FE00A1DBAF /* PeopleListBuilder.swift in Sources */,
+				52E04F8F297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */,
+				52E04F9B297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E04F93297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */,
+				52E04F9C297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */,
+				52E04F99297BC4FF00A1DBAF /* PeopleListView.swift in Sources */,
+				52E04FA8297BCCE200A1DBAF /* PersonCell.swift in Sources */,
+				52E04F83297BC12F00A1DBAF /* DataSource.swift in Sources */,
+				52E04F96297BC4FE00A1DBAF /* PeopleListBuilder.swift in Sources */,
+				52E04F87297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */,
+				52E04F90297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */,
 				5204D1EF297AE3DB00C84EAE /* ScorpProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E04F84297BC12F00A1DBAF /* DataSource.swift in Sources */,
+				52E04F94297BC4FE00A1DBAF /* PeopleListViewController.swift in Sources */,
+				52E04F88297BC17D00A1DBAF /* ProjectExtensions.swift in Sources */,
+				52E04F9A297BC4FF00A1DBAF /* PeopleListView.swift in Sources */,
 				5204D1FB297AE3DB00C84EAE /* ScorpProjectUITestsLaunchTests.swift in Sources */,
+				52E04F97297BC4FF00A1DBAF /* PeopleListBuilder.swift in Sources */,
+				52E04FA9297BCCE200A1DBAF /* PersonCell.swift in Sources */,
+				52E04F91297BC4FE00A1DBAF /* PeopleListContracts.swift in Sources */,
+				52E04F9D297BC4FF00A1DBAF /* PeopleListViewModel.swift in Sources */,
 				5204D1F9297AE3DB00C84EAE /* ScorpProjectUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +383,6 @@
 			targetProxy = 5204D1F5297AE3DB00C84EAE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5204D1DD297AE3DA00C84EAE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5204D1DE297AE3DA00C84EAE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5204D1E2297AE3DB00C84EAE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5204D1E3297AE3DB00C84EAE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5204D1FC297AE3DB00C84EAE /* Debug */ = {
@@ -367,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,13 +508,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScorpProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScorpProject;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +528,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,13 +539,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ScorpProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ScorpProject;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
